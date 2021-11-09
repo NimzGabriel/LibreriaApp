@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarLibroActivity">
+
+    <EditText
+        android:id="@+id/editTextModTituloLibro"
+        android:layout_width="247dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_titulo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextModDescripcionLibro"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/hint_descripcion"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextModTituloLibro" />
+
+    <EditText
+        android:id="@+id/editTextModFechaLibro"
+        android:layout_width="247dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/hint_fecha"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextModDescripcionLibro" />
+
+    <EditText
+        android:id="@+id/editTextModCopiasLibro"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/hint_copias"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextModFechaLibro" />
+
+    <EditText
+        android:id="@+id/editTextModPaginasLibro"
+        android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/hint_paginas"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextModCopiasLibro" />
+
+    <Spinner
+        android:id="@+id/spinnerModAutor"
+        android:layout_width="247dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spinnerModEditorial"
+        android:layout_width="250dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Spinner
+        android:id="@+id/spinnerModEstante"
+        android:layout_width="247dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nuevo_autor"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerModAutor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextModPaginasLibro" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nueva_editorial"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerModAutor" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nuevo_estante"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerModEditorial" />
+
+    <Button
+        android:id="@+id/buttonModLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="76dp"
+        android:hint="@string/boton_modificar"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerModEstante" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

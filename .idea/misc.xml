@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_autor_main.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_editorial_main.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_estante_main.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_modificar_autor.xml" value="0.321875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_modificar_editorial.xml" value="0.309375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_modificar_estante.xml" value="0.321875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_modificar_libro.xml" value="0.321875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_registrar_autor.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_registrar_editorial.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_registrar_estante.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/activity_registrar_libro.xml" value="0.25" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/item_autor.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/item_editorial.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/item_estante.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/layout/item_libro.xml" value="0.3161231884057971" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/LibreriaApp/app/src/main/res/menu/mi_menu.xml" value="0.321875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

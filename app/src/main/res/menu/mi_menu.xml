@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_autores"
+        android:title="@string/menu_autores" />
+    <item
+        android:id="@+id/item_editoriales"
+        android:title="@string/menu_editoriales" />
+    <item
+        android:id="@+id/item_estantes"
+        android:title="@string/menu_estantes" />
+</menu>

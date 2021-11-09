@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ggomez.libreriaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Libros"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LibreriaApp">
+        <activity
+            android:name=".ModificarLibroActivity"
+            android:exported="true"
+            android:label="Modificar Libro"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ModificarEstanteActivity"
+            android:exported="true"
+            android:label="Modificar Estante"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ModificarEditorialActivity"
+            android:exported="true"
+            android:label="Modificar Editorial"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ModificarAutorActivity"
+            android:exported="true"
+            android:label="Modificar Autor"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EstanteMainActivity"
+            android:exported="true"
+            android:label="Estantes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EditorialMainActivity"
+            android:exported="true"
+            android:label="Editoriales"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AutorMainActivity"
+            android:exported="true"
+            android:label="Autores"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegistrarEstanteActivity"
+            android:exported="true"
+            android:label="Nuevo Estante"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegistrarEditorialActivity"
+            android:exported="true"
+            android:label="Nueva Editorial"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegistrarAutorActivity"
+            android:exported="true"
+            android:label="Nuevo autor"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegistrarLibroActivity"
+            android:exported="true"
+            android:label="Nuevo Libro"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

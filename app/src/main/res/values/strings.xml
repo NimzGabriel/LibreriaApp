@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LibreriaApp</string>
+
+    <string name="boton_registrar">Registrar</string>
+
+    <!-- registro libro -->
+    <string name="hint_titulo">Título</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_fecha">Fecha Publicación</string>
+    <string name="hint_copias">Copias</string>
+    <string name="hint_paginas">Cantidad Páginas</string>
+    <string name="libro_autor">Autor</string>
+    <string name="libro_editorial">Editorial</string>
+    <string name="libro_estante">Estante</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="autor_apellido">Apellidos</string>
+    <string name="nacionalidad">Nacionalidad</string>
+
+    <string name="menu_autores">Autores</string>
+    <string name="menu_editoriales">Editoriales</string>
+    <string name="menu_estantes">Estantes</string>
+
+    <string name="hint_letra">Letra</string>
+    <string name="hint_numero">Número</string>
+    <string name="hint_color">Color</string>
+
+    <string name="boton_modificar">Modificar</string>
+
+    <string name="nuevo_autor">Seleccione nuevo autor</string>
+    <string name="nueva_editorial">Seleccione nueva editorial</string>
+    <string name="nuevo_estante">Seleccione nuevo estante</string>
+
+    <string name="limpiar_filtro">Limpiar</string>
+    <string name="filtro_libro">Filtro de libros</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="filtro_titulo">Por título</string>
+    <string name="filtro_autor">Por autor</string>
+    <string name="filtro_editorial">Por editorial</string>
+</resources>
